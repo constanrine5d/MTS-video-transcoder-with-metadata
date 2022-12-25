@@ -306,7 +306,7 @@ Write-Host ""
 
 # Write some text
 Write-Host "Size for each input file:`n"
-"Size for each input file" | Out-File -FilePath "$selectedDirectory\MTS_video_transcoder_output.txt" -Append
+"Size for each input file:`n" | Out-File -FilePath "$selectedDirectory\MTS_video_transcoder_output.txt" -Append
 
 foreach ($file in $mtsFiles) {
 
@@ -371,7 +371,7 @@ $stopwatch = [System.Diagnostics.Stopwatch]::StartNew()
 
 foreach ($file in $mtsFiles) {
 
-  # 0. Extract PGN subtitles to .sup
+  # 0. Extract PGS subtitles to .sup
 
   # Set the input and output filenames
 
@@ -387,7 +387,7 @@ foreach ($file in $mtsFiles) {
   # Set the output file path
   $outputFile = Join-Path $inputDirectory $outputFile
 
-  Write-Output "0. $inputFile Extract PGN subtitles to $outputFile"
+  Write-Output "0. $inputFile Extract PGS subtitles to $outputFile"
 
 
   # Set the ffmpeg arguments
@@ -399,7 +399,7 @@ foreach ($file in $mtsFiles) {
 
   Write-Host ""
 
-  # 1. Convert PGN subtitles to srt w/ OCR from SubtitleEdit
+  # 1. Convert PGS subtitles to srt w/ OCR from SubtitleEdit
 
   # Set the input and output filenames
   $inputFileSubtitleEdit = $outputFile
