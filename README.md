@@ -106,7 +106,7 @@ This script uses `/ocrengine:nOCR` for the OCR of the PGS subtitles. If you know
 
 2. Run the script by right clicking and selecting `Run with PowerShell`:
 
-![Alt text](tutorial/Run_script.png "Run_script")
+![tutorial/Run_script.png](https://github.com/constanrine5d/MTS-video-transcoder-with-metadata/blob/main/Tutorial/Run_script.png)
 
 3. Read the starting screen and press `OK`:
 
