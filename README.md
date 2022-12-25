@@ -161,7 +161,7 @@ Transcoding started.
 
 Now processing:
 
-**filed processed censored**
+**files processed censored**
 
 Size for each output file:
 
