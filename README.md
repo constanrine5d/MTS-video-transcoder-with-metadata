@@ -110,23 +110,23 @@ This script uses `/ocrengine:nOCR` for the OCR of the PGS subtitles. If you know
 
 3. Read the starting screen and press `OK`:
 
-![Alt text](tutorial/Starting_screen.png "Starting_screen")
+![tutorial/Starting_screen.png](https://github.com/constanrine5d/MTS-video-transcoder-with-metadata/blob/main/Tutorial/Starting_screen.png)
 
 4. Select if you want to use the current directory (where the script is located), or a different directory. This is the directory where your `.MTS files` are located. They don't have to be exactly there, the script searches for .MTS files recursively in that directory, so you can have multiple folders inside it and it will find all `.MTS files`:
 
-![Alt text](tutorial/Selecting_directory_1.png "Selecting_directory_1")
+![tutorial/Selecting_directory_1.png](https://github.com/constanrine5d/MTS-video-transcoder-with-metadata/blob/main/Tutorial/Selecting_directory_1.png)
 
 5. If you pressed `No` a new pop-up will ask you to choose a folder:
 
-![Alt text](tutorial/Selecting_directory_2.png "Selecting_directory_2")
+![tutorial/Selecting_directory_2.png](https://github.com/constanrine5d/MTS-video-transcoder-with-metadata/blob/main/Tutorial/Selecting_directory_2.png)
 
 6. After selecting a directory to search for `.MTS files` you will need to specify the location of FFmpeg.exe, SubtitleEdit.exe and ExifTool.exe. You can also change the settings for FFmpeg and Subtitle Edit.
 
-![Alt text](tutorial/Directory_paths_and_settings.png "Directory_paths_and_settings")
+![tutorial/Directory_paths_and_settings.png](https://github.com/constanrine5d/MTS-video-transcoder-with-metadata/blob/main/Tutorial/Directory_paths_and_settings.png)
 
 7. If all is good you will be presented in the console (and also in the output file) with the files to be transcoded (+ their individual and total size) and the FFmpeg.exe, SubtitleEdit.exe and ExifTool.exe locations you chose + their settings. If you wish to continue with transcoding press `Yes`.
 
-![Alt text](tutorial/start_transcoding.png "start_transcoding")
+![tutorial/start_transcoding.png](https://github.com/constanrine5d/MTS-video-transcoder-with-metadata/blob/main/Tutorial/start_transcoding.png)
 
 After pressing `Yes` the script will start the basic steps described [above](##How-it-works).
 
