@@ -181,3 +181,10 @@ and for subtitle edit: /ocrengine:nOCR
 
 ------------------------------------------------------------------
 ```
+
+
+## Known issues
+
+1. If a file's directory contains special unicode characters (like Greek α, β...) etc., ExifTool doesn't work and the metadata is not transfered. It will say "Wildcards don't work in the directory specification"
+
+Workaround: make sure all the directories contain only ASCII characters.
